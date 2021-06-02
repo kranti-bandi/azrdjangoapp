@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - mcpappsvcdjango
+name: Build and deploy Python app to Azure Web App - mcpappsvcdjango1
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 env: 
-  WEBAPP_NAME: 'mcpappsvcdjango'  # Replace with the name of your Azure web app
+  WEBAPP_NAME: 'mcpappsvcdjango1'  # Replace with the name of your Azure web app
 
 jobs:
   build-and-test:
